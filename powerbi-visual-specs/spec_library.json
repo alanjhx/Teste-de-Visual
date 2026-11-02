@@ -1,0 +1,7333 @@
+{
+  "nativeVisualCounts": {
+    "textbox": 119,
+    "card": 101,
+    "slicer": 61,
+    "donutChart": 46,
+    "actionButton": 13,
+    "lineClusteredColumnComboChart": 11,
+    "pivotTable": 11,
+    "multiRowCard": 9,
+    "clusteredColumnChart": 9,
+    "tableEx": 8,
+    "barChart": 6,
+    "shape": 6,
+    "kpi": 5,
+    "image": 5,
+    "columnChart": 5,
+    "lineChart": 4,
+    "pieChart": 2,
+    "gauge": 1,
+    "hundredPercentStackedBarChart": 1,
+    "stackedAreaChart": 1,
+    "areaChart": 1,
+    "clusteredBarChart": 1
+  },
+  "customVisualCounts": {
+    "simpleImageEBC4593F96F1425FB3D84C5BF02B5075": 10,
+    "Gantt1448688115699": 2,
+    "RadarChart1446119667547": 2,
+    "PBI_CV_9272D058_BEA0_476A_B090_A712545F92FA": 1,
+    "GanttChart4C3653EFFFEB4E7DA5A699CE198391E2": 1
+  },
+  "visuals": {
+    "lineChart": {
+      "instances": 4,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#E6E6E6"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "categoryAxis": {
+          "axisType": {
+            "observedValues": [
+              "Categorical"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "concatenateLabels": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "gridlineShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "maxMarginFactor": {
+            "observedValues": [
+              28
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "04be717c-Dashboard_de_engenharia.pbix",
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "04be717c-Dashboard_de_engenharia.pbix",
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              },
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 6,
+                "percent": 0
+              },
+              {
+                "themeColor": 5,
+                "percent": 0
+              },
+              {
+                "themeColor": 4,
+                "percent": 0
+              },
+              {
+                "themeColor": 9,
+                "percent": 0.2
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              50
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "legend": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "lineStyles": {
+          "lineStyle": {
+            "observedValues": [
+              "dashed"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "markerSize": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showMarker": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "strokeWidth": {
+            "observedValues": [
+              2,
+              3,
+              1
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "04be717c-Dashboard_de_engenharia.pbix",
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Planned in the period",
+              "Curva de Avanço Financeiro"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "valueAxis": {
+          "end": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "gridlineShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "labelDisplayUnits": {
+            "observedValues": [
+              1000000
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "labelPrecision": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "logAxisScale": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "04be717c-Dashboard_de_engenharia.pbix",
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "04be717c-Dashboard_de_engenharia.pbix",
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "start": {
+            "observedValues": [
+              0.3
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "xAxisReferenceLine": {
+          "dataLabelColor": {
+            "observedValues": [
+              {
+                "themeColor": 3,
+                "percent": 0
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "dataLabelShow": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "displayName": {
+            "observedValues": [
+              "Linha Constante do Eixo X 1"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "lineColor": {
+            "observedValues": [
+              {
+                "themeColor": 3,
+                "percent": 0.4
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadeColor": {
+            "observedValues": [
+              {
+                "themeColor": 3,
+                "percent": 0.6
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadeRegion": {
+            "observedValues": [
+              "after"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadeTransparency": {
+            "observedValues": [
+              70
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "value": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "Measure"
+                ]
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "y2Axis": {
+          "secLogAxisScale": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "04be717c-Dashboard_de_engenharia.pbix",
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "textbox": {
+      "instances": 119,
+      "cards": {
+        "background": {
+          "color": {
+            "observedValues": [
+              "#FFFFFF"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#DADADA"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "general": {
+          "keepLayerOrder": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "paragraphs": {
+            "observedValues": [
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Controle de NCC",
+                      "textStyle": {
+                        "fontSize": "24pt",
+                        "color": "#ffffff"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Em Replanejamento",
+                      "textStyle": {
+                        "fontWeight": "bold"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Em Desenvolvimento",
+                      "textStyle": {
+                        "fontWeight": "bold"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Não iniciados",
+                      "textStyle": {
+                        "fontWeight": "bold"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Detalhes dos Projetos - NCC",
+                      "textStyle": {
+                        "fontSize": "24pt",
+                        "color": "#ffffff"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "MAJOR PROJECTS",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "28pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "APPROVED RFA",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "COMMITED",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "PLAN 2024",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "CONTIGENCY",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "CASH FLOW BY QUARTED",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "CASH FLOW",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "CASH FLOW MONTH ",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "TO BE SPENT",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "ACTUAL",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Overall Project",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "TO BE COMMITED",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Plan 2024",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": ""
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "PLAN VS ACTUAL",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "COST TRACKING",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "MAJOR PROJECT",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "ACTUAL PERIOD",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Q1 ANALYSIS",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Q1 - FORECAST VS ACTUAL",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": " MONTH - PLAN VS ACTUAL",
+                      "textStyle": {
+                        "fontSize": "16pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "TOTAL SUPPLIER",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "TOTAL CONTRACT",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "ACTUAL PO",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "TOTAL ACC",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    },
+                    {
+                      "value": "\t"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "TOTAL SPENT",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "COST BALANCE PO",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "11pt",
+                        "color": "#165788"
+                      }
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "OUT"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "MAR"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "FEV"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "JAN"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "DEZ"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "NOV"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "SET"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "ABR"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "MAI"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "JUN"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "JUL"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "AGO"
+                    }
+                  ],
+                  "horizontalTextAlignment": "center"
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "HH",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "16pt"
+                      }
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "HH",
+                      "textStyle": {
+                        "fontSize": "14pt"
+                      }
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Projetos com custos parados a mais de 90 dias:",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "12pt"
+                      }
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "Projetos que podem entrar na base de custos parados a mais de 90 dias:",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": "12pt"
+                      }
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "textRuns": [
+                    {
+                      "value": "*considerando 60<= dias de custos parados <= 90",
+                      "textStyle": {
+                        "fontWeight": "bold",
+                        "fontFamily": "Calibri",
+                        "fontSize": "11pt",
+                        "color": "#e4392a"
+                      }
+                    }
+                  ]
+                }
+              ]
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "title": {
+          "titleWrap": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "visualHeader": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showDrillDownExpandButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showDrillDownLevelButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showDrillRoleSelector": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showDrillToggleButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showDrillUpButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showFilterRestatementButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showFocusModeButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showOptionsMenu": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showPinButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showSeeDataLayoutToggleButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showVisualErrorButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showVisualInformationButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showVisualWarningButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "slicer": {
+      "instances": 61,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#DADADA"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "data": {
+          "mode": {
+            "observedValues": [
+              "Dropdown",
+              "Basic",
+              "Relative"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "relativeDuration": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "relativePeriod": {
+            "observedValues": [
+              "Years"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "relativeRange": {
+            "observedValues": [
+              "Next"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "dateRange": {
+          "includeToday": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "general": {
+          "filter": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "filter"
+                ]
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "orientation": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "selfFilter": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "filter"
+                ]
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "selfFilterEnabled": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "header": {
+          "text": {
+            "observedValues": [
+              "Planner",
+              "Program",
+              "Project Leader",
+              "Phase"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "items": {
+          "background": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": 0
+              },
+              {
+                "themeColor": 0,
+                "percent": -0.1
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "selection": {
+          "selectAllCheckboxEnabled": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "singleSelect": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "visualHeader": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showDrillDownExpandButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showDrillDownLevelButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showDrillRoleSelector": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showDrillToggleButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showDrillUpButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showFilterRestatementButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showFocusModeButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showOptionsMenu": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showPinButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showSeeDataLayoutToggleButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showVisualErrorButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showVisualInformationButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showVisualWarningButton": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "barChart": {
+      "instances": 6,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "categoryAxis": {
+          "concatenateLabels": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "maxMarginFactor": {
+            "observedValues": [
+              42
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preferredCategoryWidth": {
+            "observedValues": [
+              20
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "switchAxisPosition": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 2,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 2,
+                "percent": 0.4
+              },
+              {
+                "themeColor": 2,
+                "percent": 0.2
+              },
+              {
+                "themeColor": 2,
+                "percent": -0.25
+              },
+              {
+                "themeColor": 8,
+                "percent": 0.4
+              },
+              {
+                "themeColor": 6,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 8,
+                "percent": 0
+              },
+              {
+                "themeColor": 9,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 0,
+                "percent": -0.1
+              },
+              {
+                "themeColor": 2,
+                "percent": -0.5
+              },
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              },
+              {
+                "themeColor": 5,
+                "percent": 0
+              },
+              {
+                "themeColor": 4,
+                "percent": 0
+              },
+              {
+                "themeColor": 7,
+                "percent": 0
+              },
+              {
+                "themeColor": 6,
+                "percent": 0
+              },
+              "#EE9133",
+              "#005890",
+              "#ECB31A"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "showAllDataPoints": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "labelPosition": {
+            "observedValues": [
+              "OutsideEnd"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "legend": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "showGradientLegend": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              11
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Qtd Projeto/ Portifólio & Phase",
+              "Qtde. de Projetos por Líder",
+              "Qtd. de projetos por fase de RFA"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "totals": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "valueAxis": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "zoom": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "lineClusteredColumnComboChart": {
+      "instances": 11,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#E6E6E6"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "categoryAxis": {
+          "concatenateLabels": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              9,
+              10,
+              8
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "gridlineShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "maxMarginFactor": {
+            "observedValues": [
+              15,
+              28
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preferredCategoryWidth": {
+            "observedValues": [
+              180
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "borderShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "fill": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0.2
+              },
+              {
+                "themeColor": 4,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              },
+              {
+                "themeColor": 2,
+                "percent": 0
+              },
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 4,
+                "percent": 0
+              },
+              {
+                "themeColor": 3,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 6,
+                "percent": 0
+              },
+              {
+                "themeColor": 2,
+                "percent": 0.4
+              },
+              {
+                "themeColor": 9,
+                "percent": 0.2
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1,
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              70,
+              50
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "dynamicLabelValue": {
+            "observedValues": [
+              ""
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "enableBackground": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "enableDetailDataLabel": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "enableTitleDataLabel": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              9
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "labelDisplayUnits": {
+            "observedValues": [
+              1000000,
+              0
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "labelPosition": {
+            "observedValues": [
+              "Under",
+              "OutsideEnd",
+              "Above"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "labelPrecision": {
+            "observedValues": [
+              1,
+              0
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "optimizeLabelDisplay": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "legend": {
+          "fontSize": {
+            "observedValues": [
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "position": {
+            "observedValues": [
+              "Top"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "lineStyles": {
+          "lineStyle": {
+            "observedValues": [
+              "dashed"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "markerColor": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "markerSize": {
+            "observedValues": [
+              5
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showMarker": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "strokeWidth": {
+            "observedValues": [
+              2
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "padding": {
+          "bottom": {
+            "observedValues": [
+              5
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "top": {
+            "observedValues": [
+              0,
+              15,
+              20
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              11,
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Distribuição Handouver Ano",
+              "Distribuição Status Cronograma",
+              "Planned in the period",
+              ""
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "valueAxis": {
+          "end": {
+            "observedValues": [
+              16,
+              30000,
+              64000000
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "gridlineShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "secShow": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "secShowAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "start": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "zoom": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "card": {
+      "instances": 101,
+      "cards": {
+        "background": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#DADADA",
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4,
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "categoryLabels": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              10,
+              8,
+              12,
+              11
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "angle": {
+            "observedValues": [
+              225
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom",
+              "TopLeft"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1,
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1,
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0,
+              3
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              70
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "bold": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 2,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 1,
+                "percent": 0.2
+              },
+              {
+                "themeColor": 0,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              28,
+              8,
+              20,
+              17,
+              24,
+              30,
+              16,
+              12,
+              10,
+              11
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "labelDisplayUnits": {
+            "observedValues": [
+              1000000,
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "labelPrecision": {
+            "observedValues": [
+              0,
+              2
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "preserveWhitespace": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "padding": {
+          "bottom": {
+            "observedValues": [
+              0,
+              5,
+              19
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "left": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "right": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "top": {
+            "observedValues": [
+              0,
+              20,
+              15
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "subTitle": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Accumulated",
+              "Cartão hh Smelter",
+              "Qtde. de Projetos em "
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "visualHeader": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "wordWrap": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "pivotTable": {
+      "instances": 11,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#E6E6E6"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "columnFormatting": {
+          "alignment": {
+            "observedValues": [
+              "Center"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "dataBars": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "minValue",
+                  "maxValue",
+                  "positiveColor",
+                  "negativeColor",
+                  "axisColor",
+                  "reverseDirection",
+                  "hideText"
+                ]
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "labelDisplayUnits": {
+            "observedValues": [
+              1000000
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "styleHeader": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "styleTotal": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "columnHeaders": {
+          "alignment": {
+            "observedValues": [
+              "Center",
+              "Auto"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "autoSizeColumnWidth": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "backColor": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "fontColor": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.1
+              },
+              {
+                "themeColor": 0,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "titleAlignment": {
+            "observedValues": [
+              "Center",
+              "Auto"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "wordWrap": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "columnTotal": {
+          "applyToHeaders": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "columnWidth": {
+          "value": {
+            "observedValues": [
+              76,
+              78,
+              57,
+              34.81818181818182,
+              87.97907187002757,
+              45.95891172536007,
+              51.97418736659359,
+              601,
+              60.29273027256292,
+              71.46803381561068,
+              102.64909060853914,
+              173.36129834751304,
+              66.9385511549236,
+              60.60989951786638,
+              311.3240395154363,
+              66.28570860396316,
+              60.7192499304642,
+              64.04425124530455,
+              64.04425673741723,
+              66.69360284730556,
+              53.39146529733678,
+              55.50289660500564,
+              61.934152765583846,
+              214.60568168539268,
+              73.87087235862505,
+              76.12268583980628,
+              60.454567485932344,
+              79.3780792806274,
+              132.285717525997,
+              190.87023584306462,
+              39.45590361716205,
+              40.36523971924916,
+              43.09319959892737,
+              87.4886538365709,
+              70.99148243308727,
+              78.38911201904988,
+              95.00104545134819,
+              586.7142887626272,
+              129.5911317722734,
+              84.34221671865927,
+              127.33491459145375,
+              130.00675083997527,
+              129.52996722367766,
+              126.42221341026345,
+              255.07779720120686,
+              103.95174909669271,
+              266.0573082915197,
+              445.36814553922096,
+              129.92307699361496,
+              110.8076927335824,
+              341.26015845641604,
+              341.3333349646662,
+              471.0043067729562,
+              26.749998922401716
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              },
+              "#999999"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              70
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "grid": {
+          "gridHorizontal": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "gridHorizontalColor": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.1
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "gridHorizontalWeight": {
+            "observedValues": [
+              0.1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "gridVertical": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "gridVerticalWeight": {
+            "observedValues": [
+              0.1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "outlineColor": {
+            "observedValues": [
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 2,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "outlineStyle": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "rowPadding": {
+            "observedValues": [
+              2,
+              1.5
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "padding": {
+          "top": {
+            "observedValues": [
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "rowHeaders": {
+          "alignment": {
+            "observedValues": [
+              "Left"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "outlineColor": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "outlineStyle": {
+            "observedValues": [
+              2
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "outlineWeight": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "showExpandCollapseButtons": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "stepped": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "wordWrap": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "rowTotal": {
+          "applyToHeaders": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "backColor": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "stylePreset": {
+          "name": {
+            "observedValues": [
+              "None",
+              "Default"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "subTotals": {
+          "applyToHeaders": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "backColor": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.1
+              },
+              {
+                "themeColor": 0,
+                "percent": 0
+              },
+              "#ECF2F7",
+              {
+                "themeColor": 4,
+                "percent": 0.2
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "columnSubtotals": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "perColumnLevel": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "perRowLevel": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "rowSubtotals": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Total Package",
+              "Project Status"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "titleWrap": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "values": {
+          "backColor": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "FillRule"
+                ]
+              },
+              {
+                "_complex": [
+                  "Conditional"
+                ]
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "backColorPrimary": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "backColorSecondary": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "fontColor": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "Conditional"
+                ]
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "icon": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "kind",
+                  "layout",
+                  "verticalAlignment",
+                  "value"
+                ]
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "wordWrap": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "visualHeader": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "donutChart": {
+      "instances": 46,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#DADADA",
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4,
+              5,
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              "#F24F4F",
+              {
+                "themeColor": 4,
+                "percent": 0.2
+              },
+              {
+                "themeColor": 6,
+                "percent": 0.2
+              },
+              {
+                "themeColor": 2,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 3,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 5,
+                "percent": 0
+              },
+              {
+                "themeColor": 2,
+                "percent": 0.2
+              },
+              {
+                "themeColor": 2,
+                "percent": -0.25
+              },
+              {
+                "themeColor": 2,
+                "percent": 0
+              },
+              {
+                "themeColor": 2,
+                "percent": 0.4
+              },
+              {
+                "themeColor": 8,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 9,
+                "percent": 0.2
+              },
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              },
+              {
+                "themeColor": 4,
+                "percent": 0
+              },
+              {
+                "themeColor": 0,
+                "percent": -0.1
+              },
+              "#ECB31A",
+              "#005890"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "background": {
+            "observedValues": [
+              "off"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "bold": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              8,
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "labelDisplayUnits": {
+            "observedValues": [
+              0,
+              1000000,
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "labelPrecision": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "labelStyle": {
+            "observedValues": [
+              "Category, data value, percent of total",
+              "Data",
+              "Percent of total",
+              "Both"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "overflow": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "percentageLabelPrecision": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "position": {
+            "observedValues": [
+              "inside"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "legend": {
+          "position": {
+            "observedValues": [
+              "Top"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "showTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "lockAspect": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "padding": {
+          "bottom": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "left": {
+            "observedValues": [
+              0,
+              20
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "right": {
+            "observedValues": [
+              20,
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "top": {
+            "observedValues": [
+              20,
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "slices": {
+          "innerRadiusRatio": {
+            "observedValues": [
+              60
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "startAngle": {
+            "observedValues": [
+              342,
+              78,
+              0,
+              1,
+              2
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "fontColor": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "fontFamily": {
+            "observedValues": [
+              "wf_standard-font, helvetica, arial, sans-serif"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              11,
+              14
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Qtd Projeto/  Plano Underover",
+              "Qtd projetos ",
+              "Distribuição R$",
+              "",
+              "Estratégia de Execução"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "titleWrap": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "visualHeader": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "multiRowCard": {
+      "instances": 9,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "card": {
+          "barColor": {
+            "observedValues": [
+              {
+                "themeColor": 5,
+                "percent": 0
+              },
+              {
+                "themeColor": 2,
+                "percent": 0
+              },
+              {
+                "themeColor": 9,
+                "percent": 0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "cardPadding": {
+            "observedValues": [
+              20
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "outlineStyle": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "categoryLabels": {
+          "fontSize": {
+            "observedValues": [
+              10,
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "dataLabels": {
+          "fontSize": {
+            "observedValues": [
+              22,
+              20,
+              26
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "padding": {
+          "bottom": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "left": {
+            "observedValues": [
+              5
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "top": {
+            "observedValues": [
+              15
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "visualHeader": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "shape": {
+      "instances": 6,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "border": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "outline": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "padding": {
+          "bottom": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "rotation": {
+          "shapeAngle": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "shape": {
+          "linecapType": {
+            "observedValues": [
+              "round"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "roundEdge": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "tileShape": {
+            "observedValues": [
+              "line",
+              "rectangle"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "text": {
+          "bottomMargin": {
+            "observedValues": [
+              13
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              8
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "horizontalAlignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "rightMargin": {
+            "observedValues": [
+              0
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Adherence"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "topMargin": {
+            "observedValues": [
+              0
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "verticalAlignment": {
+            "observedValues": [
+              "middle"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "visualLink": {
+          "navigationSection": {
+            "observedValues": [
+              "ReportSection6f30e307bbfc98a6cb85",
+              "ReportSectionc8d7b7add63618f9a809"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "type": {
+            "observedValues": [
+              "PageNavigation"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "kpi": {
+      "instances": 5,
+      "cards": {
+        "background": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#DADADA"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "goals": {
+          "direction": {
+            "observedValues": [
+              "Low is good"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "distanceLabel": {
+            "observedValues": [
+              "Value",
+              "Value, percent"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              16,
+              8
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "goalText": {
+            "observedValues": [
+              "Planned"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "labelPrecision": {
+            "observedValues": [
+              2
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showDistance": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showGoal": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "indicator": {
+          "fontSize": {
+            "observedValues": [
+              27,
+              26
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix",
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "indicatorDisplayUnits": {
+            "observedValues": [
+              1000000
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "indicatorPrecision": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showIcon": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "lastDate": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "status": {
+          "direction": {
+            "observedValues": [
+              "Positive"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Acumulado"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "titleWrap": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "trendline": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "visualHeader": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "gauge": {
+      "instances": 1,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#E6E6E6"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              4
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "calloutValue": {
+          "labelPrecision": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              },
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 6,
+                "percent": 0
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              50
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "labelPrecision": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "% Duração"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          },
+          "titleWrap": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "542fdc3e-Controle_Gest_o_NCC.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "clusteredColumnChart": {
+      "instances": 9,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              "#DADADA",
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              5,
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "categoryAxis": {
+          "fontSize": {
+            "observedValues": [
+              8
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "gridlineShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "innerPadding": {
+            "observedValues": [
+              15
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "preferredCategoryWidth": {
+            "observedValues": [
+              66
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              },
+              {
+                "themeColor": 2,
+                "percent": 0
+              },
+              "#FF6565",
+              {
+                "themeColor": 9,
+                "percent": 0.2
+              },
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 4,
+                "percent": 0
+              },
+              {
+                "themeColor": 5,
+                "percent": 0
+              },
+              {
+                "themeColor": 0,
+                "percent": -0.1
+              },
+              "#005890"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 1,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "error": {
+          "barShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "enabled": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "errorRange": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "kind",
+                  "percentage"
+                ]
+              },
+              {
+                "_complex": [
+                  "kind",
+                  "explicit"
+                ]
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "labelShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "tooltipFormat": {
+            "observedValues": [
+              "range"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "tooltipShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "dynamicLabelValue": {
+            "observedValues": [
+              ""
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              8
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "labelPrecision": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "legend": {
+          "position": {
+            "observedValues": [
+              "LeftCenter"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showGradientLegend": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "padding": {
+          "bottom": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "left": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "right": {
+            "observedValues": [
+              20,
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "top": {
+            "observedValues": [
+              15,
+              10,
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "referenceLine": {
+          "dataLabelColor": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "dataLabelHorizontalPosition": {
+            "observedValues": [
+              "left"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "dataLabelShow": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "dataLabelText": {
+            "observedValues": [
+              "Name"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "dataLabelVerticalPosition": {
+            "observedValues": [
+              "under",
+              "above"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "displayName": {
+            "observedValues": [
+              "105%",
+              "95%"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "lineColor": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "position": {
+            "observedValues": [
+              "back",
+              "front"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              10,
+              30,
+              60,
+              20
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "value": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "Percentile"
+                ]
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              11
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "",
+              "Projetos no Plano CapEx"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "valueAxis": {
+          "end": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "Aggregation"
+                ]
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "gridlineShow": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "invertAxis": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "start": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "y1AxisReferenceLine": {
+          "dataLabelShow": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "dataLabelVerticalPosition": {
+            "observedValues": [
+              "under"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "displayName": {
+            "observedValues": [
+              "105%",
+              "95%"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              10
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "value": {
+            "observedValues": [
+              1.05,
+              0.95
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "image": {
+      "instances": 5,
+      "cards": {
+        "border": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "general": {
+          "imageUrl": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "ResourcePackageItem"
+                ]
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "actionButton": {
+      "instances": 13,
+      "cards": {
+        "border": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "general": {
+          "altText": {
+            "observedValues": [
+              "Visão Geral\n"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "keepLayerOrder": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "icon": {
+          "lineColor": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "shapeType": {
+            "observedValues": [
+              "back",
+              "blank"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "outline": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "text": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Visão Geral"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "title": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "V"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "visualHeader": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "visualLink": {
+          "navigationSection": {
+            "observedValues": [
+              "ReportSection3a95da12fbf3e1248a34",
+              "ReportSection11c2732470a139c5abbd",
+              "ReportSection5abea5ebd8ea5aab2ca2",
+              "ReportSectiond4ec374b77da3f4a5c2e",
+              "ReportSection5248d4ce4d9346dfb4a2",
+              "ReportSectionf68490740ae6a0e09b2c",
+              "ReportSection",
+              "ReportSection6aabe1e57de020cc2bb7"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "type": {
+            "observedValues": [
+              "Back",
+              "PageNavigation"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "tableEx": {
+      "instances": 8,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false,
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "columnFormatting": {
+          "alignment": {
+            "observedValues": [
+              "Center"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "labelDisplayUnits": {
+            "observedValues": [
+              1000000
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "styleHeader": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "styleTotal": {
+            "observedValues": [
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "styleValues": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "columnHeaders": {
+          "alignment": {
+            "observedValues": [
+              "Auto",
+              "Center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "columnWidth": {
+          "value": {
+            "observedValues": [
+              187.7363736937696,
+              168.8605934544386
+            ],
+            "conditional": true,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "grid": {
+          "gridHorizontalWeight": {
+            "observedValues": [
+              2
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "gridVertical": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "gridVerticalWeight": {
+            "observedValues": [
+              2
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "outlineColor": {
+            "observedValues": [
+              "#005890"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "outlineWeight": {
+            "observedValues": [
+              2
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "total": {
+          "totals": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "hundredPercentStackedBarChart": {
+      "instances": 1,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "categoryAxis": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "enableBackground": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "labelPosition": {
+            "observedValues": [
+              "OutsideEnd"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "title": {
+          "text": {
+            "observedValues": [
+              ""
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        },
+        "valueAxis": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "5dc4c3e6-An_lise_Major_Project.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "columnChart": {
+      "instances": 5,
+      "cards": {
+        "background": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "border": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              10
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "categoryAxis": {
+          "concatenateLabels": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              {
+                "themeColor": 2,
+                "percent": 0
+              },
+              {
+                "themeColor": 3,
+                "percent": 0
+              },
+              {
+                "themeColor": 4,
+                "percent": 0
+              },
+              {
+                "themeColor": 5,
+                "percent": 0
+              },
+              {
+                "themeColor": 0,
+                "percent": -0.1
+              },
+              "#EE9133",
+              "#005890",
+              "#ECB31A"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 1,
+                "percent": 0.6
+              },
+              {
+                "themeColor": 1,
+                "percent": 0
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "preset": {
+            "observedValues": [
+              "Custom"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowBlur": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowDistance": {
+            "observedValues": [
+              1
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "shadowSpread": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "labelDisplayUnits": {
+            "observedValues": [
+              1
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "labelPrecision": {
+            "observedValues": [
+              0
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "legend": {
+          "showTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "fontSize": {
+            "observedValues": [
+              11
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Resource Histogram",
+              "Qtde. de Projetos por Área"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "totals": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix",
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "valueAxis": {
+          "showAxisTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "start": {
+            "observedValues": [
+              0
+            ],
+            "conditional": false,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        },
+        "y1AxisReferenceLine": {
+          "dataLabelColor": {
+            "observedValues": [
+              {
+                "themeColor": 9,
+                "percent": 0
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "dataLabelShow": {
+            "observedValues": [
+              true,
+              false
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "dataLabelText": {
+            "observedValues": [
+              "ValueAndName"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "displayName": {
+            "observedValues": [
+              "HN",
+              "HE"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "lineColor": {
+            "observedValues": [
+              {
+                "themeColor": 9,
+                "percent": 0
+              }
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "style": {
+            "observedValues": [
+              "dashed"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "transparency": {
+            "observedValues": [
+              100,
+              50
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          },
+          "value": {
+            "observedValues": [
+              {
+                "_complex": [
+                  "Measure"
+                ]
+              },
+              480
+            ],
+            "conditional": true,
+            "seenIn": [
+              "76097114-Resource_Histogram._Rev.01.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "pieChart": {
+      "instances": 2,
+      "cards": {
+        "border": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              "#ECB31A",
+              "#005890",
+              "#EE9133",
+              "#008D97"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dropShadow": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "labelStyle": {
+            "observedValues": [
+              "Both"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "position": {
+            "observedValues": [
+              "outside"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "legend": {
+          "position": {
+            "observedValues": [
+              "BottomCenter"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "showTitle": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Estatégia de Execução",
+              "Qtde. de Projetos por Fase"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "stackedAreaChart": {
+      "instances": 1,
+      "cards": {
+        "border": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              "#ECB31A"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "enableBackground": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "labelPosition": {
+            "observedValues": [
+              "Auto"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "lineStyles": {
+          "showMarker": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "seriesLabels": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "title": {
+          "text": {
+            "observedValues": [
+              "Qtde. de projetos por Complexidade"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "totals": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "areaChart": {
+      "instances": 1,
+      "cards": {
+        "border": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              "#ECB31A"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "lineStyles": {
+          "showMarker": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Qtde. de Projetos por Complexidade"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "zoom": {
+          "show": {
+            "observedValues": [
+              false
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        }
+      }
+    },
+    "clusteredBarChart": {
+      "instances": 1,
+      "cards": {
+        "border": {
+          "color": {
+            "observedValues": [
+              {
+                "themeColor": 0,
+                "percent": -0.2
+              }
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "radius": {
+            "observedValues": [
+              12
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "dataPoint": {
+          "fill": {
+            "observedValues": [
+              "#EE9133",
+              "#005890"
+            ],
+            "conditional": true,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "labels": {
+          "show": {
+            "observedValues": [
+              true
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        },
+        "title": {
+          "alignment": {
+            "observedValues": [
+              "center"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          },
+          "text": {
+            "observedValues": [
+              "Qtde. de projetos com risco"
+            ],
+            "conditional": false,
+            "seenIn": [
+              "764aa398-Staff_Report.pbix"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
