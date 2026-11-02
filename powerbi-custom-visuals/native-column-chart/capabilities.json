@@ -1,0 +1,64 @@
+{
+  "dataRoles": [
+    { "displayName": "Eixo (Categoria)", "name": "category", "kind": "Grouping" },
+    { "displayName": "Valores", "name": "measure", "kind": "Measure" }
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [{ "category": { "max": 1 }, "measure": { "max": 1 } }],
+      "categorical": {
+        "categories": { "for": { "in": "category" }, "dataReductionAlgorithm": { "top": { "count": 1000 } } },
+        "values": { "select": [{ "bind": { "to": "measure" } }] }
+      }
+    }
+  ],
+  "objects": {
+    "dataPoint": {
+      "displayName": "Cores dos dados",
+      "properties": {
+        "defaultColor": { "displayName": "Cor padrão", "type": { "fill": { "solid": { "color": true } } } },
+        "showAllDataPoints": { "displayName": "Mostrar todas as cores", "type": { "bool": true } },
+        "fill": { "displayName": "Cor", "type": { "fill": { "solid": { "color": true } } } },
+        "barRadius": { "displayName": "Raio dos cantos", "type": { "numeric": true } }
+      }
+    },
+    "categoryAxis": {
+      "displayName": "Eixo de categoria",
+      "properties": {
+        "show": { "displayName": "Mostrar", "type": { "bool": true } },
+        "fontSize": { "displayName": "Tamanho do texto", "type": { "formatting": { "fontSize": true } } },
+        "labelColor": { "displayName": "Cor", "type": { "fill": { "solid": { "color": true } } } }
+      }
+    },
+    "valueAxis": {
+      "displayName": "Eixo de valor",
+      "properties": {
+        "show": { "displayName": "Mostrar", "type": { "bool": true } },
+        "start": { "displayName": "Início", "type": { "numeric": true } },
+        "gridlines": { "displayName": "Linhas de grade", "type": { "bool": true } },
+        "gridlineStyle": {
+          "displayName": "Estilo da grade",
+          "type": { "enumeration": [
+            { "value": "dotted", "displayName": "Pontilhada" },
+            { "value": "dashed", "displayName": "Tracejada" },
+            { "value": "solid", "displayName": "Sólida" }
+          ] }
+        },
+        "labelColor": { "displayName": "Cor", "type": { "fill": { "solid": { "color": true } } } }
+      }
+    },
+    "dataLabels": {
+      "displayName": "Rótulos de dados",
+      "properties": {
+        "show": { "displayName": "Mostrar", "type": { "bool": true } },
+        "color": { "displayName": "Cor", "type": { "fill": { "solid": { "color": true } } } },
+        "fontSize": { "displayName": "Tamanho do texto", "type": { "formatting": { "fontSize": true } } },
+        "labelPrecision": { "displayName": "Casas decimais", "type": { "numeric": true } }
+      }
+    }
+  },
+  "supportsHighlight": true,
+  "tooltips": { "supportedTypes": { "default": true, "canvas": true }, "roles": ["measure"] },
+  "sorting": { "default": {} },
+  "privileges": []
+}

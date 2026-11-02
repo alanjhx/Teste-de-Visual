@@ -1,0 +1,19 @@
+{
+  "visual": {
+    "name": "nativeColumnChart",
+    "displayName": "Native Column Chart (REA)",
+    "guid": "nativeColumnChartREA3F0A1B2C4D5",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Gráfico de colunas que reproduz a identidade visual nativa do Power BI (tokens de engenharia reversa: radius 10, gridlines pontilhadas, stroke 3px, cores do tema).",
+    "supportUrl": "https://github.com/alanjhx/Teste-de-Visual",
+    "gitHubUrl": "https://github.com/alanjhx/Teste-de-Visual"
+  },
+  "apiVersion": "5.11.0",
+  "author": { "name": "alanjhx", "email": "alanjhonyx@gmail.com" },
+  "assets": { "icon": "assets/icon.png" },
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}
