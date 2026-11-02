@@ -5,12 +5,8 @@ import FormattingSettingsModel = formattingSettings.Model;
 
 class ProjectCardSettings extends FormattingSettingsCard {
     projectId = new formattingSettings.TextInput({
-        name: "projectId", displayName: "Código do projeto",
-        value: "JUR00140", placeholder: "JUR00140"
-    });
-    closeDate = new formattingSettings.TextInput({
-        name: "closeDate", displayName: "Data de encerramento",
-        value: "30/06/2023", placeholder: "dd/mm/aaaa"
+        name: "projectId", displayName: "Código do projeto (manual)",
+        value: "", placeholder: "ex.: JUR00140 (ou use o campo Número do projeto)"
     });
     accentColor = new formattingSettings.ColorPicker({
         name: "accentColor", displayName: "Cor de destaque",
@@ -18,7 +14,7 @@ class ProjectCardSettings extends FormattingSettingsCard {
     });
     name: string = "project";
     displayName: string = "Projeto";
-    slices = [this.projectId, this.closeDate, this.accentColor];
+    slices = [this.projectId, this.accentColor];
 }
 
 export class VisualFormattingSettingsModel extends FormattingSettingsModel {

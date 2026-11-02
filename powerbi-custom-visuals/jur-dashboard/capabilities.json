@@ -1,22 +1,53 @@
 {
   "dataRoles": [
-    { "displayName": "Contrato", "name": "contract", "kind": "Grouping" },
+    { "displayName": "Contrato (número)", "name": "contract", "kind": "Grouping" },
+    { "displayName": "Número do projeto", "name": "projectId", "kind": "Grouping" },
+    { "displayName": "Número do BM", "name": "bmNumber", "kind": "Grouping" },
     { "displayName": "Fornecedor", "name": "supplier", "kind": "Grouping" },
+    { "displayName": "Portfólio", "name": "portfolio", "kind": "Grouping" },
     { "displayName": "Status", "name": "status", "kind": "Grouping" },
-    { "displayName": "Progresso (%)", "name": "progress", "kind": "Measure" },
-    { "displayName": "Valor contrato", "name": "contractValue", "kind": "Measure" },
+    { "displayName": "Fase do projeto", "name": "projectPhase", "kind": "Grouping" },
+    { "displayName": "Data de início", "name": "startDate", "kind": "Grouping" },
+    { "displayName": "Data de término", "name": "endDate", "kind": "Grouping" },
+    { "displayName": "Data da notificação", "name": "notificationDate", "kind": "Grouping" },
+    { "displayName": "Aditivo", "name": "amendment", "kind": "Grouping" },
+    { "displayName": "Data do aditivo", "name": "amendmentDate", "kind": "Grouping" },
+    { "displayName": "Data de assinatura da TEC", "name": "tecSignDate", "kind": "Grouping" },
+    { "displayName": "Status da TEC", "name": "tecStatus", "kind": "Grouping" },
+    { "displayName": "Valor contratado", "name": "contractValue", "kind": "Measure" },
     { "displayName": "Valor utilizado", "name": "usedValue", "kind": "Measure" }
   ],
   "dataViewMappings": [
     {
       "conditions": [
-        { "contract": { "max": 1 }, "supplier": { "max": 1 }, "status": { "max": 1 },
-          "progress": { "max": 1 }, "contractValue": { "max": 1 }, "usedValue": { "max": 1 } }
+        {
+          "contract": { "max": 1 }, "projectId": { "max": 1 }, "bmNumber": { "max": 1 },
+          "supplier": { "max": 1 }, "portfolio": { "max": 1 }, "status": { "max": 1 },
+          "projectPhase": { "max": 1 }, "startDate": { "max": 1 }, "endDate": { "max": 1 },
+          "notificationDate": { "max": 1 }, "amendment": { "max": 1 }, "amendmentDate": { "max": 1 },
+          "tecSignDate": { "max": 1 }, "tecStatus": { "max": 1 },
+          "contractValue": { "max": 1 }, "usedValue": { "max": 1 }
+        }
       ],
       "categorical": {
-        "categories": { "select": [ { "for": { "in": "contract" } }, { "for": { "in": "supplier" } }, { "for": { "in": "status" } } ],
-          "dataReductionAlgorithm": { "top": { "count": 500 } } },
-        "values": { "select": [ { "bind": { "to": "progress" } }, { "bind": { "to": "contractValue" } }, { "bind": { "to": "usedValue" } } ] }
+        "categories": {
+          "select": [
+            { "for": { "in": "contract" } }, { "for": { "in": "projectId" } },
+            { "for": { "in": "bmNumber" } }, { "for": { "in": "supplier" } },
+            { "for": { "in": "portfolio" } }, { "for": { "in": "status" } },
+            { "for": { "in": "projectPhase" } }, { "for": { "in": "startDate" } },
+            { "for": { "in": "endDate" } }, { "for": { "in": "notificationDate" } },
+            { "for": { "in": "amendment" } }, { "for": { "in": "amendmentDate" } },
+            { "for": { "in": "tecSignDate" } }, { "for": { "in": "tecStatus" } }
+          ],
+          "dataReductionAlgorithm": { "top": { "count": 1000 } }
+        },
+        "values": {
+          "select": [
+            { "bind": { "to": "contractValue" } },
+            { "bind": { "to": "usedValue" } }
+          ]
+        }
       }
     }
   ],
@@ -24,8 +55,7 @@
     "project": {
       "displayName": "Projeto",
       "properties": {
-        "projectId": { "displayName": "Código do projeto", "type": { "text": true } },
-        "closeDate": { "displayName": "Data de encerramento", "type": { "text": true } },
+        "projectId": { "displayName": "Código do projeto (manual)", "type": { "text": true } },
         "accentColor": { "displayName": "Cor de destaque", "type": { "fill": { "solid": { "color": true } } } }
       }
     }
