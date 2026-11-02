@@ -1,0 +1,19 @@
+{
+  "visual": {
+    "name": "jurDashboard",
+    "displayName": "JUR Dashboard (REA)",
+    "guid": "jurDashboardREA7B1C2D3E4F50",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Dashboard físico-financeiro de contratos (curva S, ciclo de vida, KPIs e tabela) reproduzindo a identidade visual do Power BI — tokens de engenharia reversa.",
+    "supportUrl": "https://github.com/alanjhx/Teste-de-Visual",
+    "gitHubUrl": "https://github.com/alanjhx/Teste-de-Visual"
+  },
+  "apiVersion": "5.11.0",
+  "author": { "name": "alanjhx", "email": "alanjhonyx@gmail.com" },
+  "assets": { "icon": "assets/icon.png" },
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

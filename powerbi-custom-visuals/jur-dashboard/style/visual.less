@@ -1,0 +1,104 @@
+// Dashboard JUR00140 — identidade Power BI reproduzida (tokens REA).
+// Tudo escopado em .jur-root (não usa :root/body, pois roda dentro do visual).
+
+.jur-root {
+  --bg:#0a1626; --panel:#122339; --panel2:#0f1e31; --card:#14273f;
+  --stroke:#1f3a59; --stroke-soft:#17304c;
+  --fg:#e9eff6; --fg-dim:#9fb3c9; --fg-mute:#6b819b;
+  --accent:#2e9bff; --accent-2:#17b58f;
+  --good:#1aab40; --warn:#e8a33d; --bad:#d64550;
+  --purple:#7a5cff; --magenta:#d1479f; --orange:#ef8f2e; --red:#e24c5b;
+  --r:10px;
+  --font:'Segoe UI', wf_standard-font, sans-serif;
+  --num:'DIN','Segoe UI Semibold', 'Segoe UI', sans-serif;
+
+  box-sizing:border-box; width:100%; height:100%; overflow:auto;
+  font-family:var(--font); color:var(--fg);
+  background:radial-gradient(1200px 600px at 15% -10%, rgba(32,86,150,.18) 0%, transparent 60%),
+             linear-gradient(160deg,#0a1626,#0b1a2d 55%,#0a1524);
+  background-color:var(--bg);
+  padding:12px; display:flex; flex-direction:column; gap:12px;
+
+  *{box-sizing:border-box}
+  .note{font-size:11px;color:var(--fg-mute)}
+
+  .kpis{display:grid;grid-template-columns:repeat(7,1fr);gap:9px}
+  .kpi{background:linear-gradient(180deg,var(--card),var(--panel2));border:1px solid var(--stroke);
+    border-radius:var(--r);padding:11px 12px;min-width:0;display:flex;flex-direction:column;gap:7px}
+  .kpi .lab{font-size:9px;letter-spacing:.07em;text-transform:uppercase;color:var(--fg-mute);line-height:1.2}
+  .kpi .mid{display:flex;align-items:center;gap:8px}
+  .kpi .ic{width:28px;height:28px;flex:none;border-radius:8px;display:grid;place-items:center;
+    background:#0e1f33;border:1px solid var(--stroke)}
+  .kpi .ic svg{width:16px;height:16px}
+  .kpi .val{font-family:var(--num);font-weight:700;font-size:23px;line-height:1;font-variant-numeric:tabular-nums}
+  .kpi .sub{font-size:10px;color:var(--fg-dim);line-height:1.25}
+  .kpi .donut{width:42px;height:42px;flex:none;position:relative}
+  .kpi .donut .pc{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--num);
+    font-weight:700;font-size:12px;color:var(--accent-2)}
+
+  .panel{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--stroke);
+    border-radius:var(--r);padding:13px 15px 15px}
+  .panel h3{margin:0 0 11px;font-size:13px;font-weight:600;color:#dfe8f2}
+  .panel h3 .mut{color:var(--fg-mute);font-weight:500}
+
+  .tl{display:grid;grid-template-columns:100px 1fr;row-gap:6px;align-items:center;margin-bottom:6px}
+  .tl-lab{font-size:10px;color:var(--fg-dim);padding-right:8px;line-height:1.15}
+  .bands{display:flex;gap:3px;height:25px}
+  .seg{flex:1 1 0;border-radius:5px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    font-size:9px;line-height:1.05;color:#eaf1fb;overflow:hidden;white-space:nowrap;padding:0 2px}
+  .seg b{font-weight:600;font-size:9.5px}
+  .seg small{font-size:7.5px;opacity:.8}
+  .years{display:flex;justify-content:space-between;font-size:10px;color:var(--fg-mute);padding-top:2px}
+
+  .chartwrap{display:grid;grid-template-columns:100px 1fr;margin-top:4px}
+  .yaxis{display:flex;flex-direction:column;justify-content:space-between;height:280px;
+    font-size:10px;color:var(--fg-mute);text-align:right;padding-right:10px;padding-block:6px}
+  .plot{position:relative;height:280px;min-width:0}
+  .plot svg{position:absolute;inset:0;width:100%;height:100%}
+  .mk{position:absolute;transform:translate(-50%,-50%);width:21px;height:21px;border-radius:50%;
+    display:grid;place-items:center;font-family:var(--num);font-weight:700;font-size:9.5px;color:#09131f;
+    border:2px solid rgba(255,255,255,.85);box-shadow:0 2px 6px rgba(0,0,0,.5);z-index:3}
+  .callout{position:absolute;transform:translate(-50%,-115%);background:#0c1b2c;border:1px solid var(--stroke);
+    border-radius:6px;padding:4px 7px;font-size:9px;line-height:1.25;white-space:nowrap;z-index:4;
+    box-shadow:0 3px 8px rgba(0,0,0,.45)}
+  .callout b{display:block;font-weight:600;font-size:9.5px}
+  .callout .d{color:var(--fg-dim)}
+  .callout.amber b{color:var(--warn)} .callout.red b{color:var(--red)} .callout.teal b{color:var(--accent-2)}
+
+  .legend{display:flex;flex-wrap:wrap;gap:13px;margin-top:11px;padding-top:9px;border-top:1px solid var(--stroke-soft);
+    font-size:10px;color:var(--fg-dim)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:18px;height:0;border-top:3px solid var(--accent)}
+  .sw.dash{border-top:3px dashed var(--accent-2)}
+  .dot{width:11px;height:11px;border-radius:50%;display:inline-block}
+
+  .tblwrap{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:11.5px;min-width:720px}
+  thead th{text-align:left;font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-mute);
+    font-weight:600;padding:0 11px 8px;border-bottom:1px solid var(--stroke)}
+  thead th.r,td.r{text-align:right}
+  tbody td{padding:10px 11px;border-bottom:1px solid var(--stroke-soft);vertical-align:middle}
+  tbody tr:hover{background:#0f2135}
+  .c-main{font-family:var(--num);font-weight:700;font-size:14px}
+  .c-sub{font-size:9px;color:var(--fg-mute)}
+  .ciclo{display:flex;gap:3px}
+  .ciclo i{width:11px;height:11px;border-radius:3px;background:#1c3350;display:block}
+  .ciclo i.on{background:var(--accent)}
+  .prog{min-width:90px}
+  .prog .t{font-size:10px;color:var(--accent);font-family:var(--num);font-weight:700}
+  .prog .bar{height:5px;border-radius:3px;background:#17304c;margin-top:4px;overflow:hidden}
+  .prog .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#56b6ff);border-radius:3px}
+  .money{font-family:var(--num);font-weight:700;font-size:13px;font-variant-numeric:tabular-nums}
+  .pct0{font-size:9px;color:var(--fg-mute)}
+  .pill{display:inline-block;padding:3px 10px;border-radius:11px;font-size:9px;font-weight:600;
+    letter-spacing:.03em;text-transform:uppercase}
+  .pill.fechado{background:#24384f;color:#aebfd1}
+  .pill.encerrado{background:rgba(23,181,143,.16);color:#4fd7b4;border:1px solid rgba(23,181,143,.35)}
+  .pill.ativo{background:rgba(46,155,255,.16);color:#7cc0ff;border:1px solid rgba(46,155,255,.35)}
+  .pill.atraso{background:rgba(214,69,80,.16);color:#f08a93;border:1px solid rgba(214,69,80,.35)}
+}
+
+@media(max-width:860px){
+  .jur-root .kpis{grid-template-columns:repeat(2,1fr)}
+  .jur-root .tl,.jur-root .chartwrap{grid-template-columns:70px 1fr}
+}

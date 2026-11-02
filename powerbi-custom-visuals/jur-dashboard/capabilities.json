@@ -1,0 +1,35 @@
+{
+  "dataRoles": [
+    { "displayName": "Contrato", "name": "contract", "kind": "Grouping" },
+    { "displayName": "Fornecedor", "name": "supplier", "kind": "Grouping" },
+    { "displayName": "Status", "name": "status", "kind": "Grouping" },
+    { "displayName": "Progresso (%)", "name": "progress", "kind": "Measure" },
+    { "displayName": "Valor contrato", "name": "contractValue", "kind": "Measure" },
+    { "displayName": "Valor utilizado", "name": "usedValue", "kind": "Measure" }
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [
+        { "contract": { "max": 1 }, "supplier": { "max": 1 }, "status": { "max": 1 },
+          "progress": { "max": 1 }, "contractValue": { "max": 1 }, "usedValue": { "max": 1 } }
+      ],
+      "categorical": {
+        "categories": { "select": [ { "for": { "in": "contract" } }, { "for": { "in": "supplier" } }, { "for": { "in": "status" } } ],
+          "dataReductionAlgorithm": { "top": { "count": 500 } } },
+        "values": { "select": [ { "bind": { "to": "progress" } }, { "bind": { "to": "contractValue" } }, { "bind": { "to": "usedValue" } } ] }
+      }
+    }
+  ],
+  "objects": {
+    "project": {
+      "displayName": "Projeto",
+      "properties": {
+        "projectId": { "displayName": "Código do projeto", "type": { "text": true } },
+        "closeDate": { "displayName": "Data de encerramento", "type": { "text": true } },
+        "accentColor": { "displayName": "Cor de destaque", "type": { "fill": { "solid": { "color": true } } } }
+      }
+    }
+  },
+  "supportsHighlight": false,
+  "privileges": []
+}
