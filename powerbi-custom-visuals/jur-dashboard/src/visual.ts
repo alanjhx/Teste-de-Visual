@@ -3,13 +3,12 @@
 import powerbi from "powerbi-visuals-api";
 import { FormattingSettingsService } from "powerbi-visuals-utils-formattingmodel";
 import { VisualFormattingSettingsModel } from "./settings";
+import { STYLES } from "./styles";
 
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
 import IVisual = powerbi.extensibility.visual.IVisual;
 import DataView = powerbi.DataView;
-import DataViewCategoryColumn = powerbi.DataViewCategoryColumn;
-import DataViewValueColumn = powerbi.DataViewValueColumn;
 
 type Row = {
     contract: string; bm: string; supplier: string; portfolio: string;
@@ -35,6 +34,10 @@ export class Visual implements IVisual {
 
     constructor(options: VisualConstructorOptions) {
         this.formattingSettingsService = new FormattingSettingsService();
+        // Injeta o CSS por conta própria (não depende da injeção do host).
+        const style = document.createElement("style");
+        style.textContent = STYLES;
+        options.element.appendChild(style);
         this.root = document.createElement("div");
         this.root.className = "jur-root";
         options.element.appendChild(this.root);
@@ -56,46 +59,51 @@ export class Visual implements IVisual {
 
     // ---------------- model ----------------
     private buildModel(dv: DataView): Model | null {
-        const cat = dv && dv.categorical;
-        if (!cat || !cat.categories) return null;
-        const C = (role: string): DataViewCategoryColumn =>
-            cat.categories.find(c => c.source.roles && c.source.roles[role]);
-        const V = (role: string): DataViewValueColumn =>
-            cat.values && cat.values.find(v => v.source.roles && v.source.roles[role]);
+        const tbl = dv && dv.table;
+        if (!tbl || !tbl.columns || !tbl.rows) return null;
 
-        const contract = C("contract");
-        if (!contract) return null; // sem contrato ligado -> exemplo
+        // mapeia cada papel (role) para o índice da coluna na tabela
+        const idx: { [role: string]: number } = {};
+        tbl.columns.forEach((c, i) => {
+            const roles = c.roles || {};
+            for (const r in roles) { if (roles[r] && idx[r] === undefined) idx[r] = i; }
+        });
+        if (idx["contract"] === undefined) return null; // sem contrato -> exemplo
+        const get = (row: powerbi.DataViewTableRow, role: string): powerbi.PrimitiveValue =>
+            idx[role] !== undefined ? row[idx[role]] : null;
 
-        const supplier = C("supplier"), status = C("status"), portfolio = C("portfolio");
-        const projectIdCol = C("projectId"), bm = C("bmNumber");
-        const startD = C("startDate"), endD = C("endDate");
-        const notifD = C("notificationDate"), amendD = C("amendmentDate"), tecD = C("tecSignDate");
-        const cValue = V("contractValue"), uValue = V("usedValue");
-
-        const n = contract.values.length;
         const rows: Row[] = [];
         let sumC = 0, sumU = 0, ativos = 0, encerrados = 0, atrasos = 0;
         const now = Date.now();
         const starts: number[] = [], ends: number[] = [];
+        const notifTs: number[] = [], amendTs: number[] = [], tecTs: number[] = [];
+        let dataId = "";
 
-        for (let i = 0; i < n; i++) {
-            const cv = cValue ? Number(cValue.values[i]) || 0 : 0;
-            const uv = uValue ? Number(uValue.values[i]) || 0 : 0;
-            const label = status ? `${status.values[i] ?? ""}` : "";
+        for (const row of tbl.rows) {
+            const cv = Number(get(row, "contractValue")) || 0;
+            const uv = Number(get(row, "usedValue")) || 0;
+            const label = `${get(row, "status") ?? ""}`;
             const cls = this.statusClass(label);
-            const end = this.parseDate(endD && endD.values[i]);
-            const start = this.parseDate(startD && startD.values[i]);
+            const start = this.parseDate(get(row, "startDate"));
+            const end = this.parseDate(get(row, "endDate"));
+            const nt = this.parseDate(get(row, "notificationDate"));
+            const at = this.parseDate(get(row, "amendmentDate"));
+            const tt = this.parseDate(get(row, "tecSignDate"));
             if (start) starts.push(start);
             if (end) ends.push(end);
+            if (nt) notifTs.push(nt);
+            if (at) amendTs.push(at);
+            if (tt) tecTs.push(tt);
+            if (!dataId) dataId = `${get(row, "projectId") ?? ""}`;
             if (cls === "ativo") ativos++;
             if (cls === "encerrado") encerrados++;
             if (cls === "atraso" || (cls === "ativo" && end && end < now)) atrasos++;
             sumC += cv; sumU += uv;
             rows.push({
-                contract: `${contract.values[i] ?? ""}`,
-                bm: bm ? `${bm.values[i] ?? ""}` : "—",
-                supplier: supplier ? `${supplier.values[i] ?? ""}` : "—",
-                portfolio: portfolio ? `${portfolio.values[i] ?? ""}` : "—",
+                contract: `${get(row, "contract") ?? ""}`,
+                bm: idx["bmNumber"] !== undefined ? `${get(row, "bmNumber") ?? ""}` : "—",
+                supplier: idx["supplier"] !== undefined ? `${get(row, "supplier") ?? ""}` : "—",
+                portfolio: idx["portfolio"] !== undefined ? `${get(row, "portfolio") ?? ""}` : "—",
                 progress: cv > 0 ? Math.round((uv / cv) * 100) : 0,
                 contractValue: cv, usedValue: uv,
                 statusClass: cls, statusLabel: label || "—"
@@ -114,10 +122,9 @@ export class Visual implements IVisual {
         const todayYear = Math.min(this.decYear(now), maxYear);
 
         const manualId = this.settings.project.projectId.value;
-        const dataId = projectIdCol && projectIdCol.values.length ? `${projectIdCol.values[0] ?? ""}` : "";
         const projectId = manualId || dataId || "Projeto";
 
-        const markers = this.buildMarkers(notifD, amendD, tecD, minYear, maxYear, k, mid);
+        const markers = this.buildMarkers(notifTs, amendTs, tecTs, minYear, maxYear, k, mid);
 
         return {
             live: true,
@@ -126,7 +133,7 @@ export class Visual implements IVisual {
             startLabel: minT ? this.monthYear(minT) : "—",
             durationMonths: (minT && maxT) ? Math.max(1, Math.round((maxT - minT) / (1000 * 3600 * 24 * 30.44))) : 0,
             kpis: {
-                contratos: n, ativos, encerrados, atrasos,
+                contratos: rows.length, ativos, encerrados, atrasos,
                 valorPlanejado: sumC, valorRealizado: sumU,
                 pctRealizado, pctExecutado: pctRealizado
             },
@@ -136,16 +143,10 @@ export class Visual implements IVisual {
         };
     }
 
-    private buildMarkers(notifD: DataViewCategoryColumn, amendD: DataViewCategoryColumn,
-                         tecD: DataViewCategoryColumn, minYear: number, maxYear: number,
-                         k: number, mid: number): Marker[] {
+    private buildMarkers(notifTs: number[], amendTs: number[], tecTs: number[],
+                         minYear: number, maxYear: number, k: number, mid: number): Marker[] {
         const planned = (t: number) => 99 / (1 + Math.exp(-k * (t - mid)));
-        const firstDate = (col: DataViewCategoryColumn): number => {
-            if (!col) return 0;
-            let best = 0;
-            for (const raw of col.values) { const d = this.parseDate(raw); if (d && (best === 0 || d < best)) best = d; }
-            return best;
-        };
+        const firstDate = (arr: number[]): number => (arr && arr.length ? Math.min(...arr) : 0);
         const out: Marker[] = [];
         const add = (ts: number, label: string, color: string, dark: boolean, title: string, cls: string) => {
             if (!ts) return;
@@ -153,9 +154,9 @@ export class Visual implements IVisual {
             if (t < minYear || t > maxYear) return;
             out.push({ t, v: planned(t), label, color, dark, title, date: this.fmtDate(ts), cls, dy: -6 });
         };
-        add(firstDate(notifD), "N", "#ef8f2e", true, "Notificação", "amber");
-        add(firstDate(amendD), "A", "#e24c5b", false, "Aditivo", "red");
-        add(firstDate(tecD), "TA", "#17b58f", true, "TEC Assinado", "teal");
+        add(firstDate(notifTs), "N", "#ef8f2e", true, "Notificação", "amber");
+        add(firstDate(amendTs), "A", "#e24c5b", false, "Aditivo", "red");
+        add(firstDate(tecTs), "TA", "#17b58f", true, "TEC Assinado", "teal");
         return out;
     }
 
@@ -232,7 +233,7 @@ export class Visual implements IVisual {
         return `<div class="note">${txt}</div>`;
     }
     private icon(path: string, stroke: string): string {
-        return `<div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="${stroke}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${path}</svg></div>`;
+        return `<div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="${stroke}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${path}</svg></div>`;
     }
     private kpisHtml(m: Model): string {
         const k = m.kpis;
@@ -249,7 +250,7 @@ export class Visual implements IVisual {
           <div class="kpi"><div class="lab">Data de encerramento</div><div class="mid">${this.icon(cal,"#2e9bff")}<div class="val">${this.esc(m.closeDate)}</div></div><div class="sub">${m.durationMonths ? m.durationMonths + " meses de duração" : "duração —"}</div></div>
           <div class="kpi"><div class="lab">Contratos</div><div class="mid">${this.icon(doc,"#2e9bff")}<div class="val">${k.contratos}</div></div><div class="sub">${k.ativos} Ativos · ${k.encerrados} Enc.</div></div>
           <div class="kpi"><div class="lab">% Executado (financeiro)</div><div class="mid">
-            <div class="donut"><svg viewBox="0 0 42 42"><circle cx="21" cy="21" r="16" fill="none" stroke="#193149" stroke-width="5"/><circle cx="21" cy="21" r="16" fill="none" stroke="#17b58f" stroke-width="5" stroke-linecap="round" stroke-dasharray="${dash} 100" stroke-dashoffset="25" pathLength="100" transform="rotate(-90 21 21)"/></svg><span class="pc">${Math.round(exec)}%</span></div>
+            <div class="donut"><svg width="42" height="42" viewBox="0 0 42 42"><circle cx="21" cy="21" r="16" fill="none" stroke="#193149" stroke-width="5"/><circle cx="21" cy="21" r="16" fill="none" stroke="#17b58f" stroke-width="5" stroke-linecap="round" stroke-dasharray="${dash} 100" stroke-dashoffset="25" pathLength="100" transform="rotate(-90 21 21)"/></svg><span class="pc">${Math.round(exec)}%</span></div>
             <div class="val" style="font-size:20px">${`${exec}`.replace(".", ",")}%</div></div><div class="sub">Utilizado / contratado</div></div>
           <div class="kpi"><div class="lab">Valor planejado</div><div class="mid">${this.icon(money,"#e8a33d")}<div class="val">${this.money(k.valorPlanejado)}</div></div><div class="sub">Total contratos</div></div>
           <div class="kpi"><div class="lab">Valor realizado</div><div class="mid">${this.icon(money,"#1aab40")}<div class="val">${this.money(k.valorRealizado)}</div></div><div class="sub">${pctReal}% do planejado</div></div>

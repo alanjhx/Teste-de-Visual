@@ -19,18 +19,8 @@
   ],
   "dataViewMappings": [
     {
-      "conditions": [
-        {
-          "contract": { "max": 1 }, "projectId": { "max": 1 }, "bmNumber": { "max": 1 },
-          "supplier": { "max": 1 }, "portfolio": { "max": 1 }, "status": { "max": 1 },
-          "projectPhase": { "max": 1 }, "startDate": { "max": 1 }, "endDate": { "max": 1 },
-          "notificationDate": { "max": 1 }, "amendment": { "max": 1 }, "amendmentDate": { "max": 1 },
-          "tecSignDate": { "max": 1 }, "tecStatus": { "max": 1 },
-          "contractValue": { "max": 1 }, "usedValue": { "max": 1 }
-        }
-      ],
-      "categorical": {
-        "categories": {
+      "table": {
+        "rows": {
           "select": [
             { "for": { "in": "contract" } }, { "for": { "in": "projectId" } },
             { "for": { "in": "bmNumber" } }, { "for": { "in": "supplier" } },
@@ -38,15 +28,10 @@
             { "for": { "in": "projectPhase" } }, { "for": { "in": "startDate" } },
             { "for": { "in": "endDate" } }, { "for": { "in": "notificationDate" } },
             { "for": { "in": "amendment" } }, { "for": { "in": "amendmentDate" } },
-            { "for": { "in": "tecSignDate" } }, { "for": { "in": "tecStatus" } }
+            { "for": { "in": "tecSignDate" } }, { "for": { "in": "tecStatus" } },
+            { "for": { "in": "contractValue" } }, { "for": { "in": "usedValue" } }
           ],
-          "dataReductionAlgorithm": { "top": { "count": 1000 } }
-        },
-        "values": {
-          "select": [
-            { "bind": { "to": "contractValue" } },
-            { "bind": { "to": "usedValue" } }
-          ]
+          "dataReductionAlgorithm": { "top": { "count": 2000 } }
         }
       }
     }
